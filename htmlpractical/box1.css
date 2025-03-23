@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F3F4F6;
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E5E7EB;
+    padding: 1rem;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 80%;
+    max-width: 400px;
+}
+
+.auth-buttons button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4F46E5;
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    padding: 1rem;
+}
+
+.help-topics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.topic {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-links a {
+    margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #E5E7EB;
+}
